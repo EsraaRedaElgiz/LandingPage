@@ -5,8 +5,7 @@ export default {
     buttonColor: {
       baseColor: "#235A86",
       whiteBaseColor: "#FFFFFF",
-      aquaBaseColor:"#60a5fa", //bg-gradient-to-r from-cyan-500 to-blue-500
-     
+      aquaBaseColor:"#00a5ac", //bg-gradient-to-r from-cyan-500 to-blue-500
     },
     fontColor: {
       blackBaseColor: "#0C151E",

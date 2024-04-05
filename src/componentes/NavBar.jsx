@@ -7,7 +7,7 @@ const NavBar = ({ handleScroll }) => {
     const [clicked, setClicked] = useState(false)
     console.log(handleScroll)
     return (
-        <div className="navbar shadow-xl bg-slate-50 sticky top-0  py-3 px-0  z-50 ">
+        <div className="navbar shadow-xl bg-[#f8f9fa] sticky top-0  py-3 px-0  z-50 ">
             <div className="navbar-start ">
                 <div className="dropdown  absolute w-full ">
                     <div tabIndex={0} role="button" onClick={() => { setClicked(clicked => !clicked) }} className="btn btn-ghost  hover:bg-transparent hover:border-gray-300 lg:hidden border-1 p-2 rounded-sm  border-gray-300 ml-3 ">
