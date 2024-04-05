@@ -5,7 +5,6 @@ import fotter3 from "../assets/images/fotter3.png"
 
 const NavBar = ({ handleScroll }) => {
     const [clicked, setClicked] = useState(false)
-    console.log(handleScroll)
     return (
         <div className="navbar shadow-xl bg-[#f8f9fa] sticky top-0  py-3 px-0  z-50 ">
             <div className="navbar-start ">
