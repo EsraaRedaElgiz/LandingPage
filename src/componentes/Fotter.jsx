@@ -31,8 +31,8 @@ const Fotter = () => {
             <div className='order-1 sm:order-4 flex  justify-center items-start'>
                 <img src={fotter3} className='w-full sm:w-auto' />
             </div>
-            <div className='order-0 sm:order-5 mb-3 sm:mb-0 flex  justify-center md:justify-end items-start '>
-                <img src={fotterlastimg} className='w-full sm:w-auto'  />
+            <div className='order-0 sm:order-5 mb-3 sm:mb-0 flex  justify-center md:justify-end items-start  '>
+                <img src={fotterlastimg} className='w-full sm:w-auto  '  />
             </div>
 
         </div>

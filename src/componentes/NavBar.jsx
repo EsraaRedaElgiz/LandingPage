@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import Button from './Button'
 import Icons from './../themes/icons';
+import fotter3 from "../assets/images/fotter3.png"
+
 const NavBar = ({ handleScroll }) => {
     const [clicked, setClicked] = useState(false)
     console.log(handleScroll)
@@ -42,11 +44,8 @@ const NavBar = ({ handleScroll }) => {
                 </ul>
             </div>
             <div className="sm:navbar-end sm:mr-16 ">
-                <p className='mr-2'><Icons.Logo /></p>
-                <div className='text-center ' style={{ lineHeight: "1.1rem" }} >
-                    <p className='text-fontColor-textBlue font-custom text-logo '>منافسات</p>
-                    <p className='tracking-widest text-fontColor-aquaBaseColor font-custom'>TENDERS</p>
-                </div>
+                <img src={fotter3}  />
+
             </div>
             <div className='navbar-end flex sm:hidden'></div>
 
