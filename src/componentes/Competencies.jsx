@@ -1,11 +1,9 @@
 import React from 'react'
-import Button from './Button'
 import Icons from '../themes/icons'
-import { Plus } from './../assets/icons';
 
-const Competencies = () => {
+const Competencies = React.forwardRef((props, ref) => {
     return (
-        <div className='pr-10 pl-10 py-16 bg-gray-200 grid grid-cols-1 sm:grid-cols-2 '>
+        <div ref={ref} className='pr-10 pl-10 py-16 bg-gray-200 grid grid-cols-1 sm:grid-cols-2 '>
             <div className=' order-1 sm:order-0    py-16 '>
                 <div className=' bg-gradient-to-r from-buttonColor-baseColor to-buttonColor-aquaBaseColor py-4 border-1 rounded-sm shadow-xl	'>
                     <p className='text-center text-fontColor-whiteBaseColor mb-2'>منافسات</p>
@@ -60,6 +58,6 @@ const Competencies = () => {
             </div>
         </div>
     )
-}
+})
 
 export default Competencies
