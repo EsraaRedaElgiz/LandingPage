@@ -3,7 +3,7 @@ export default {
       baseHoverColor: "#ded7da",
     },
     buttonColor: {
-      baseColor: "#075985",
+      baseColor: "#235A86",
       whiteBaseColor: "#FFFFFF",
       aquaBaseColor:"#60a5fa", //bg-gradient-to-r from-cyan-500 to-blue-500
      
@@ -11,8 +11,8 @@ export default {
     fontColor: {
       blackBaseColor: "#0C151E",
       whiteBaseColor: "#FFFFFF",
-      blueBaseColor:"#075985",
-      textBlue:"#3730a3",
+      blueBaseColor:"#235A86",
+      textBlue:"#235A86",
       aquaBaseColor:"#38bdf8",
       outLineInputColor: "#EFEFF5",
 
