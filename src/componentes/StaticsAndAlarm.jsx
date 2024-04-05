@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from './Button'
-import statics from "../assets/images/statics.png"
 import statics2 from "../assets/images/statics2.png"
 
 const StaticsAndAlarm = React.forwardRef( ({bgColor,divHeaderColor,textContentColor,headerText,contentLineOne,contentLineTwo,buttonStyle,buttonTextColor,imgSrc,imgStyle}, ref) => {

@@ -19,7 +19,6 @@ export default {
     },
     fontWeight: {
       headerWeight: 500,
-      thin:50
     },
   };
   
